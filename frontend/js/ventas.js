@@ -53,7 +53,7 @@ async function cargarVentas() {
         <td>${v.cantidad}</td>
         <td>${v.precio_unitario}</td>
         <td>${v.total}</td>
-        <td>${new Date(v.fecha).toLocalString()}</td>
+        <td>${new Date(v.fecha).toLocaleString()}</td>
         </tr>`;
     });
 }
